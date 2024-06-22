@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+nav {
+    box-shadow: 0 2px 10px #00000040;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-wrapper-ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-wrapper-ul-li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-wrapper-ul-li a {
+    text-decoration: none;
+    color: #1F2E35CC;
+}
+
+.nav-wrapper-ul-li a:hover {
+    text-decoration: none;
+    color: rgb(171, 15, 15);
+}
+
+.nav-wrapper-images {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.section1-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.section1-wrapper-left-title {
+    font-size: 48px;
+    color: #30444E;
+    width: 545px;
+}
+
+.section1-wrapper-left-title-span {
+    font-size: 48px;
+    color: #EE4248;
+    width: 545px;
+}
+
+.section1-wrapper-left-subtitle {
+    width: 520px;
+    font-size: 20px;
+    color: #30444E;
+    margin-top: 24px;
+}
+
+.section1-wrapper-left-btn {
+    width: 161px;
+    height: 53px;
+    border-radius: 4px;
+    border: none;
+    background: #EE4248;
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+button:hover {
+    border: 2px solid #EE4248;
+    background: transparent;
+    color: #EE4248;
+}
+
+.section2 {
+    background: #F6F6F6;
+    width: 100%;
+    height: 500px;
+}
+
+.section2-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2-wrapper-right-title {
+    width: 454px;
+    height: 86px;
+    color: #30444E;
+    font-size: 32px;
+}
+
+.section2-wrapper-right-title-span {
+    width: 454px;
+    height: 86px;
+    color: #EE4248;
+}
+
+.section2-wrapper-right-subtitle {
+    width: 520px;
+    font-size: 18px;
+    color: #30444E;
+    margin-top: 24px;
+}
+
+.section2-wrapper-right-subtitle-span {
+    width: 520px;
+    font-size: 18px;
+    color: #EE4248;
+}
+
+.main-wrapper-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.main-wrapper-information-box-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    margin-top: 15px;
+}
+
+.main-wrapper-information-box-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 15px;
+}
+
+.main-wrapper-information-box-btn {
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.section4 {
+    margin-top: 115px;
+    margin-bottom: 90px;
+}
+
+.section4-wrapper {
+    display: flex;
+    gap: 47px;
+}
+
+.section4-wrapper-left-img {
+    width: 119px;
+    height: 56px;
+}
+
+.section4-wrapper-left-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    margin-top: 10px;
+}
+
+.section4-wrapper-left-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    margin-top: 8px;
+}
+
+.section4-wrapper-right {
+    margin-top: 20px;
+}
+
+.section4-wrapper-right-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    margin-top: 8px;
+}
+
+.footer {
+    margin-top: 13px;
+    background: #EE4248;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-wrapper {
+    padding: 22px;
+    margin-bottom: 0px;
+}
+
+.footer-wrapper-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
